@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+</head>
+<body>
+<!--[if lt IE 7]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
+  your browser</a> to improve your experience.</p>
+<![endif]-->
+<nav class="navbar nav-top-bar" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+              aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">
+        <img src="img/logo.png" alt="LuyệnThi360">
+      </a>
+    </div>
+
+    <div id="navbar" class="navbar-right-wrapper navbar-collapse collapse">
+      <div class="navbar-right">
+        <a href="#" class="btn btn-normal btn-rounded btn-yellow">Đăng ký</a>
+        <a href="#" class="btn btn-normal btn-rounded btn-green">Đăng nhập</a>
+        <ul class="nav navbar-nav">
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="help-menu" aria-expanded="false">Trợ giúp
+              <span class="caret"></span></a>
+            <ul class="dropdown-menu" aria-labelledby="help-menu">
+              <li><a href="./default/">Default</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!--/.navbar-collapse -->
+  </div>
+</nav>
+
+<nav class="navbar nav-bar-secondary" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu"
+              aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div id="main-menu" class="navbar-collapse collapse">
+      <ul class="nav navbar">
+        <li class="active">
+          <a href="#">Trang chủ</a>
+        </li>
+        <li>
+          <a href="#">Luyện môn hóa</a>
+        </li>
+        <li>
+          <a href="#">Môn Lý</a>
+        </li>
+        <li>
+          <a href="#">Môn Sinh</a>
+        </li>
+        <li>
+          <a href="#">Tin tuyển sinh</a>
+        </li>
+        <li>
+          <a href="#">Nạp thẻ</a>
+        </li>
+        <li>
+          <a href="#">Hướng dẫn</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div id="topCarousel" class="top-carousel carousel slide" data-interval="7000" data-ride="carousel">
+  <div class="container">
+    <!-- Carousel indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#topCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#topCarousel" data-slide-to="1"></li>
+    </ol>
+    <!-- Carousel items -->
+  </div>
+  <div class="carousel-inner">
+    <div class="item active">
+      <div class="slider-image" style="background-image: url(img/banner.jpg)"></div>
+    </div>
+    <div class="item">
+      <div class="slider-image" style="background-image: url(img/banner.jpg)"></div>
+    </div>
+  </div>
+
+</div>
+
+<div class="main-content">
+  <div class="luyenthi-section theme-green">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-sm-10">
+          <div class="tab-luyenthi" role="tabpanel">
+            <!-- Nav tabs -->
+            <div class="header-tabpanel">
+              <h3 class="title-tabpanel"><span class="title-content"><i
+                      class="icon-tabpanel"></i> Tin tức tuyển sinh</span></h3>
+              <ul class="tab-navigation" role="tablist">
+                <li role="presentation" class="active"><a href="#tuyensinh2015" aria-controls="tuyensinh2015" role="tab"
+                                                          data-toggle="tab">Tuyển sinh 2015</a></li>
+                <li role="presentation"><a href="#chitieutuyensinh2015" aria-controls="chitieutuyensinh2015" role="tab"
+                                           data-toggle="tab">Chỉ tiêu tuyển sinh 2015</a></li>
+                <li role="presentation"><a href="#biquyetluyenthi" aria-controls="biquyetluyenthi" role="tab"
+                                           data-toggle="tab">Bí quyết luyện thi</a></li>
+                <li role="presentation"><a href="#giaitrimotlat" aria-controls="giaitrimotlat" role="tab"
+                                           data-toggle="tab">Giải trí một lát</a></li>
+                <li role="presentation"><a href="#dethidapan" aria-controls="dethidapan" role="tab" data-toggle="tab">Đề
+                  thi - đáp án</a></li>
+              </ul>
+            </div>
+            <!-- Tab panes -->
+            <div class="tab-content">
+              <div role="tabpanel" class="tab-pane active" id="tuyensinh2015">
+                <div class="media">
+                  <div class="media-left">
+                    <a href="#">
+                      <img class="media-object" src="img/news-img.png" alt="Thí sinh được chọn môn ngoại ngữ ở kì thi THPT quốc gia">
+                    </a>
+                  </div>
+                  <div class="media-body">
+                    <h4 class="media-heading">Thí sinh được chọn môn ngoại ngữ ở kì thi THPT quốc gia</h4>
+                    <span class="date-time"><i class="icon-times"></i> 3/9/2015 4:06:00 PM</span>
+
+                    <p class="media-content">
+                      Thi THPT quốc gia, với môn Ngoại ngữ, thí sinh được tự chọn để đăng ký dự thi một trong những thứ
+                      tiếng: Tiếng Anh, Tiếng Nga, Tiếng Pháp, Tiếng Trung Quốc, Tiếng Đức hoặc Tiếng Nhật. Thí sinh
+                      được đăng ký thi môn ngoại ngữ khác với môn Ngoại ngữ đang được học tại trường phổ thông.
+                    </p>
+                  </div>
+                  <ul class="link-more">
+                    <li><a href="#">Tàu cá cùng 11 ngư dân Đà Nẵng hỏng máy, trôi tự do</a></li>
+                    <li><a href="#">Tàu cá cùng 11 ngư dân Đà Nẵng hỏng máy, trôi tự do</a></li>
+                    <li><a href="#">Tàu cá cùng 11 ngư dân Đà Nẵng hỏng máy, trôi tự do</a></li>
+                    <li><a href="#">Tàu cá cùng 11 ngư dân Đà Nẵng hỏng máy, trôi tự do</a></li>
+                  </ul>
+                </div>
+                <a class="view-more" href="#"><span class="text-view-more">Xem thêm</span> <i class="icon-view-more"></i></a>
+              </div>
+              <div role="tabpanel" class="tab-pane" id="chitieutuyensinh2015">...</div>
+              <div role="tabpanel" class="tab-pane" id="biquyetluyenthi">...</div>
+              <div role="tabpanel" class="tab-pane" id="giaitrimotlat">...</div>
+              <div role="tabpanel" class="tab-pane" id="dethidapan">...</div>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-5">
+          <div class="donate">
+            <a class="donate-link" href="#">
+              <span class="item-icon"><i class="icon-share-item"></i></span>
+              <span class="item-text">Bạn ủng hộ luyenthi360 miễn phí?</span>
+            </a>
+            <div class="like-box">
+              <img src="img/share-fb.png" alt=""/>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="luyenthi-section theme-green">
+    <div class="container">
+      <div class="row">
+        <h3 class="section-title">LUYỆN THI ĐH MÔN HÓA HỌC</h3>
+
+        <div class="col-md-3">
+          <div class="row">
+            <div class="col-md-15 col-sm-7">
+              <div class="test-section panel-wrap">
+                <img src="img/icon-document.png"/>
+
+                <p>Luyện thi ĐH môn Hóa theo Cấu trúc đề thi của BGD năm 2015</p>
+                <a href="#" class="btn btn-green btn-normal">HÃY THỬ SỨC!</a>
+              </div>
+            </div>
+            <div class="col-md-15 col-sm-8">
+              <div class="test-list-section panel-wrap">
+                <h3 class="panel-title">ĐỀ THI THỬ 2015</h3>
+                <hr/>
+                <ul class="list test-list bullet-list">
+                  <li><a href="#" class="test-link">Đề thi thử Đại học môn Hóa học năm 2015 - Tháng 5</a></li>
+                  <li><a href="#" class="test-link">Đề thi thử Đại học môn Hóa học năm 2015 - Tháng 5</a></li>
+                  <li><a href="#" class="test-link">Đề thi thử Đại học môn Hóa học năm 2015 - Tháng 5</a></li>
+                  <li><a href="#" class="test-link">Đề thi thử Đại học môn Hóa học năm 2015 - Tháng 5</a></li>
+                </ul>
+                <a href="#" class="more-btn">Xem thêm</a>
+
+                <div class="clearfix"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="panel-wrap panel-large">
+            <div class="row">
+              <div class="col-sm-5 no-padding-right">
+                <div class="practise-block user-block">
+                  <h3 class="panel-title">Các bạn đang luyện hăng say</h3>
+                  <hr/>
+                  <ul class="list user-list">
+                    <li>
+                      <div class="user-left-content">
+                        <div class="user-avatar">
+                          <a href="#"><img src="img/ava.png"/></a>
+                        </div>
+                        <span class="user-mark">90đ</span>
+                      </div>
+                      <div class="user-right-content">
+                        <a class="user-name" href="#">
+                          <h4>Nguyễn Xuân Tiến</h4>
+                          <span class="icon-new-content"><img src="img/icon-new.png"/></span></a>
+                        <span class="user-school">THPT Liễn Sơn - Vĩnh Phúc</span>
+                        <span class="user-test"><a href="#">Đề thi thử Đại học môn Hóa học năm 2015 - Tháng 3</a></span>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="user-left-content">
+                        <div class="user-avatar">
+                          <a href="#"><img src="img/ava.png"/></a>
+                        </div>
+                        <span class="user-mark">90đ</span>
+                      </div>
+                      <div class="user-right-content">
+                        <a class="user-name" href="#">
+                          <h4>Nguyễn Xuân Tiến</h4>
+                          <span class="icon-new-content"><img src="img/icon-new.png"/></span></a>
+                        <span class="user-school">THPT Liễn Sơn - Vĩnh Phúc</span>
+                        <span class="user-test"><a href="#">Đề thi thử Đại học môn Hóa học năm 2015 - Tháng 3</a></span>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="user-left-content">
+                        <div class="user-avatar">
+                          <a href="#"><img src="img/ava.png"/></a>
+                        </div>
+                        <span class="user-mark">90đ</span>
+                      </div>
+                      <div class="user-right-content">
+                        <a class="user-name" href="#">
+                          <h4>Nguyễn Xuân Tiến</h4>
+                          <span class="icon-new-content"><img src="img/icon-new.png"/></span></a>
+                        <span class="user-school">THPT Liễn Sơn - Vĩnh Phúc</span>
+                        <span class="user-test"><a href="#">Đề thi thử Đại học môn Hóa học năm 2015 - Tháng 3</a></span>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="user-left-content">
+                        <div class="user-avatar">
+                          <a href="#"><img src="img/ava.png"/></a>
+                        </div>
+                        <span class="user-mark">90đ</span>
+                      </div>
+                      <div class="user-right-content">
+                        <a class="user-name" href="#">
+                          <h4>Nguyễn Xuân Tiến</h4>
+                          <span class="icon-new-content"><img src="img/icon-new.png"/></span></a>
+                        <span class="user-school">THPT Liễn Sơn - Vĩnh Phúc</span>
+                        <span class="user-test"><a href="#">Đề thi thử Đại học môn Hóa học năm 2015 - Tháng 3</a></span>
+                      </div>
+                    </li>
+                  </ul>
+                  <a href="#" class="more-btn">Xem thêm</a>
+
+                  <div class="clearfix"></div>
+                </div>
+              </div>
+              <div class="col-sm-5 no-padding-right no-padding-left">
+                <div class="practise-block test-block">
+                  <h3 class="panel-title">Luyện theo chủ đề</h3>
+                  <hr/>
+                  <ul class="list test-list">
+                    <li><a href="#">Chủ đề 1: Các định luật và ứng dụng của Vât Lý<span class="icon-hot-content"><img
+                            src="img/icon-hot.png"/></span></a></a></li>
+                    <li><a href="#">Chủ đề 1: Các định luật và ứng dụng của Vât Lý<span class="icon-hot-content"><img
+                            src="img/icon-hot.png"/></span></a></a></li>
+                    <li><a href="#">Chủ đề 1: Các định luật và ứng dụng của Vât Lý<span class="icon-hot-content"><img
+                            src="img/icon-hot.png"/></span></a></a></li>
+                    <li><a href="#">Chủ đề 1: Các định luật và ứng dụng của Vât Lý<span class="icon-hot-content"><img
+                            src="img/icon-hot.png"/></span></a></a></li>
+                    <li><a href="#">Chủ đề 1: Các định luật và ứng dụng của Vât Lý<span class="icon-hot-content"><img
+                            src="img/icon-hot.png"/></span></a></a></li>
+                    <li><a href="#">Chủ đề 1: Các định luật và ứng dụng của Vât Lý<span class="icon-hot-content"><img
+                            src="img/icon-hot.png"/></span></a></a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-sm-5 no-padding-left">
+                <div class="practise-block leader-block">
+                  <div class="block-icon">
+                    <img src="img/icon-hoa.png"/>
+                  </div>
+                  <h3 class="panel-title">Top cao thủ - Môn Hóa</h3>
+                  <hr/>
+                  <ul class="list leader-list">
+                    <li>
+                      <div class="user-avatar">
+                        <a href="#"><img src="img/ava.png"/></a>
+                      </div>
+                      <div class="user-info">
+                        <a class="user-name" href="#">
+                          <h4>Nguyễn Xuân Tiến</h4>
+                          <span class="icon-up"><img src="img/icon-arrow-up.png"/></span></a>
+                        <span class="user-school">THPT Liễn Sơn - Vĩnh Phúc</span>
+                        <span class="user-point">200pt</span>
+                      </div>
+                      <div class="user-rank">
+                        <span class="rank-badge rank-orange">1</span>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="user-avatar">
+                        <a href="#"><img src="img/ava.png"/></a>
+                      </div>
+                      <div class="user-info">
+                        <a class="user-name" href="#">
+                          <h4>Nguyễn Xuân Tiến</h4>
+                          <span class="icon-up"><img src="img/icon-arrow-up.png"/></span></a>
+                        <span class="user-school">THPT Liễn Sơn - Vĩnh Phúc</span>
+                        <span class="user-point">200pt</span>
+                      </div>
+                      <div class="user-rank">
+                        <span class="rank-badge rank-orange">1</span>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="user-avatar">
+                        <a href="#"><img src="img/ava.png"/></a>
+                      </div>
+                      <div class="user-info">
+                        <a class="user-name" href="#">
+                          <h4>Nguyễn Xuân Tiến</h4>
+                          <span class="icon-up"><img src="img/icon-arrow-up.png"/></span></a>
+                        <span class="user-school">THPT Liễn Sơn - Vĩnh Phúc</span>
+                        <span class="user-point">200pt</span>
+                      </div>
+                      <div class="user-rank">
+                        <span class="rank-badge rank-yellow">1</span>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="user-avatar">
+                        <a href="#"><img src="img/ava.png"/></a>
+                      </div>
+                      <div class="user-info">
+                        <a class="user-name" href="#">
+                          <h4>Nguyễn Xuân Tiến</h4>
+                          <span class="icon-down"><img src="img/icon-arrow-down.png"/></span></a>
+                        <span class="user-school">THPT Liễn Sơn - Vĩnh Phúc</span>
+                        <span class="user-point">200pt</span>
+                      </div>
+                      <div class="user-rank">
+                        <span class="rank-badge rank-yellow">1</span>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="user-avatar">
+                        <a href="#"><img src="img/ava.png"/></a>
+                      </div>
+                      <div class="user-info">
+                        <a class="user-name" href="#">
+                          <h4>Nguyễn Xuân Tiến</h4>
+                          <span class="icon-down"><img src="img/icon-arrow-down.png"/></span></a>
+                        <span class="user-school">THPT Liễn Sơn - Vĩnh Phúc</span>
+                        <span class="user-point">200pt</span>
+                      </div>
+                      <div class="user-rank">
+                        <span class="rank-badge rank-green">1</span>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="user-avatar">
+                        <a href="#"><img src="img/ava.png"/></a>
+                      </div>
+                      <div class="user-info">
+                        <a class="user-name" href="#">
+                          <h4>Nguyễn Xuân Tiến</h4>
+                          <span class="icon-down"><img src="img/icon-arrow-down.png"/></span></a>
+                        <span class="user-school">THPT Liễn Sơn - Vĩnh Phúc</span>
+                        <span class="user-point">200pt</span>
+                      </div>
+                      <div class="user-rank">
+                        <span class="rank-badge rank-green">6</span>
+                      </div>
+                    </li>
+                  </ul>
+                  <a href="#" class="more-btn">Xem thêm</a>
+
+                  <div class="clearfix"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="luyenthi-section theme-orange">
+    <div class="container">
+      <div class="row">
+        <h3 class="section-title">LUYỆN THI ĐH MÔN HÓA HỌC</h3>
+
+        <div class="col-md-3">
+          <div class="row">
+            <div class="col-md-15 col-sm-7">
+              <div class="test-section panel-wrap">
+                <img src="img/icon-document.png"/>
+
+                <p>Luyện thi ĐH môn Hóa theo Cấu trúc đề thi của BGD năm 2015</p>
+                <a href="#" class="btn btn-green btn-normal">HÃY THỬ SỨC!</a>
+              </div>
+            </div>
+            <div class="col-md-15 col-sm-8">
+              <div class="test-list-section panel-wrap">
+                <h3 class="panel-title">ĐỀ THI THỬ 2015</h3>
+                <hr/>
+                <ul class="list test-list bullet-list">
+                  <li><a href="#" class="test-link">Đề thi thử Đại học môn Hóa học năm 2015 - Tháng 5</a></li>
+                  <li><a href="#" class="test-link">Đề thi thử Đại học môn Hóa học năm 2015 - Tháng 5</a></li>
+                  <li><a href="#" class="test-link">Đề thi thử Đại học môn Hóa học năm 2015 - Tháng 5</a></li>
+                  <li><a href="#" class="test-link">Đề thi thử Đại học môn Hóa học năm 2015 - Tháng 5</a></li>
+                </ul>
+                <a href="#" class="more-btn">Xem thêm</a>
+
+                <div class="clearfix"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="panel-wrap panel-large">
+            <div class="row">
+              <div class="col-sm-5 no-padding-right">
+                <div class="practise-block user-block">
+                  <h3 class="panel-title">Các bạn đang luyện hăng say</h3>
+                  <hr/>
+                  <ul class="list user-list">
+                    <li>
+                      <div class="user-left-content">
+                        <div class="user-avatar">
+                          <a href="#"><img src="img/ava.png"/></a>
+                        </div>
+                        <span class="user-mark">90đ</span>
+                      </div>
+                      <div class="user-right-content">
+                        <a class="user-name" href="#">
+                          <h4>Nguyễn Xuân Tiến</h4>
+                          <span class="icon-new-content"><img src="img/icon-new.png"/></span></a>
+                        <span class="user-school">THPT Liễn Sơn - Vĩnh Phúc</span>
+                        <span class="user-test"><a href="#">Đề thi thử Đại học môn Hóa học năm 2015 - Tháng 3</a></span>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="user-left-content">
+                        <div class="user-avatar">
+                          <a href="#"><img src="img/ava.png"/></a>
+                        </div>
+                        <span class="user-mark">90đ</span>
+                      </div>
+                      <div class="user-right-content">
+                        <a class="user-name" href="#">
+                          <h4>Nguyễn Xuân Tiến</h4>
+                          <span class="icon-new-content"><img src="img/icon-new.png"/></span></a>
+                        <span class="user-school">THPT Liễn Sơn - Vĩnh Phúc</span>
+                        <span class="user-test"><a href="#">Đề thi thử Đại học môn Hóa học năm 2015 - Tháng 3</a></span>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="user-left-content">
+                        <div class="user-avatar">
+                          <a href="#"><img src="img/ava.png"/></a>
+                        </div>
+                        <span class="user-mark">90đ</span>
+                      </div>
+                      <div class="user-right-content">
+                        <a class="user-name" href="#">
+                          <h4>Nguyễn Xuân Tiến</h4>
+                          <span class="icon-new-content"><img src="img/icon-new.png"/></span></a>
+                        <span class="user-school">THPT Liễn Sơn - Vĩnh Phúc</span>
+                        <span class="user-test"><a href="#">Đề thi thử Đại học môn Hóa học năm 2015 - Tháng 3</a></span>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="user-left-content">
+                        <div class="user-avatar">
+                          <a href="#"><img src="img/ava.png"/></a>
+                        </div>
+                        <span class="user-mark">90đ</span>
+                      </div>
+                      <div class="user-right-content">
+                        <a class="user-name" href="#">
+                          <h4>Nguyễn Xuân Tiến</h4>
+                          <span class="icon-new-content"><img src="img/icon-new.png"/></span></a>
+                        <span class="user-school">THPT Liễn Sơn - Vĩnh Phúc</span>
+                        <span class="user-test"><a href="#">Đề thi thử Đại học môn Hóa học năm 2015 - Tháng 3</a></span>
+                      </div>
+                    </li>
+                  </ul>
+                  <a href="#" class="more-btn">Xem thêm</a>
+
+                  <div class="clearfix"></div>
+                </div>
+              </div>
+              <div class="col-sm-5 no-padding-right no-padding-left">
+                <div class="practise-block test-block">
+                  <h3 class="panel-title">Luyện theo chủ đề</h3>
+                  <hr/>
+                  <ul class="list test-list">
+                    <li><a href="#">Chủ đề 1: Các định luật và ứng dụng của Vât Lý<span class="icon-hot-content"><img
+                            src="img/icon-hot.png"/></span></a></a></li>
+                    <li><a href="#">Chủ đề 1: Các định luật và ứng dụng của Vât Lý<span class="icon-hot-content"><img
+                            src="img/icon-hot.png"/></span></a></a></li>
+                    <li><a href="#">Chủ đề 1: Các định luật và ứng dụng của Vât Lý<span class="icon-hot-content"><img
+                            src="img/icon-hot.png"/></span></a></a></li>
+                    <li><a href="#">Chủ đề 1: Các định luật và ứng dụng của Vât Lý<span class="icon-hot-content"><img
+                            src="img/icon-hot.png"/></span></a></a></li>
+                    <li><a href="#">Chủ đề 1: Các định luật và ứng dụng của Vât Lý<span class="icon-hot-content"><img
+                            src="img/icon-hot.png"/></span></a></a></li>
+                    <li><a href="#">Chủ đề 1: Các định luật và ứng dụng của Vât Lý<span class="icon-hot-content"><img
+                            src="img/icon-hot.png"/></span></a></a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-sm-5 no-padding-left">
+                <div class="practise-block leader-block">
+                  <div class="block-icon">
+                    <img src="img/icon-vatly.png"/>
+                  </div>
+                  <h3 class="panel-title">Top cao thủ - Môn Hóa</h3>
+                  <hr/>
+                  <ul class="list leader-list">
+                    <li>
+                      <div class="user-avatar">
+                        <a href="#"><img src="img/ava.png"/></a>
+                      </div>
+                      <div class="user-info">
+                        <a class="user-name" href="#">
+                          <h4>Nguyễn Xuân Tiến</h4>
+                          <span class="icon-up"><img src="img/icon-arrow-up.png"/></span></a>
+                        <span class="user-school">THPT Liễn Sơn - Vĩnh Phúc</span>
+                        <span class="user-point">200pt</span>
+                      </div>
+                      <div class="user-rank">
+                        <span class="rank-badge rank-orange">1</span>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="user-avatar">
+                        <a href="#"><img src="img/ava.png"/></a>
+                      </div>
+                      <div class="user-info">
+                        <a class="user-name" href="#">
+                          <h4>Nguyễn Xuân Tiến</h4>
+                          <span class="icon-up"><img src="img/icon-arrow-up.png"/></span></a>
+                        <span class="user-school">THPT Liễn Sơn - Vĩnh Phúc</span>
+                        <span class="user-point">200pt</span>
+                      </div>
+                      <div class="user-rank">
+                        <span class="rank-badge rank-orange">1</span>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="user-avatar">
+                        <a href="#"><img src="img/ava.png"/></a>
+                      </div>
+                      <div class="user-info">
+                        <a class="user-name" href="#">
+                          <h4>Nguyễn Xuân Tiến</h4>
+                          <span class="icon-up"><img src="img/icon-arrow-up.png"/></span></a>
+                        <span class="user-school">THPT Liễn Sơn - Vĩnh Phúc</span>
+                        <span class="user-point">200pt</span>
+                      </div>
+                      <div class="user-rank">
+                        <span class="rank-badge rank-yellow">1</span>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="user-avatar">
+                        <a href="#"><img src="img/ava.png"/></a>
+                      </div>
+                      <div class="user-info">
+                        <a class="user-name" href="#">
+                          <h4>Nguyễn Xuân Tiến</h4>
+                          <span class="icon-down"><img src="img/icon-arrow-down.png"/></span></a>
+                        <span class="user-school">THPT Liễn Sơn - Vĩnh Phúc</span>
+                        <span class="user-point">200pt</span>
+                      </div>
+                      <div class="user-rank">
+                        <span class="rank-badge rank-yellow">1</span>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="user-avatar">
+                        <a href="#"><img src="img/ava.png"/></a>
+                      </div>
+                      <div class="user-info">
+                        <a class="user-name" href="#">
+                          <h4>Nguyễn Xuân Tiến</h4>
+                          <span class="icon-down"><img src="img/icon-arrow-down.png"/></span></a>
+                        <span class="user-school">THPT Liễn Sơn - Vĩnh Phúc</span>
+                        <span class="user-point">200pt</span>
+                      </div>
+                      <div class="user-rank">
+                        <span class="rank-badge rank-green">1</span>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="user-avatar">
+                        <a href="#"><img src="img/ava.png"/></a>
+                      </div>
+                      <div class="user-info">
+                        <a class="user-name" href="#">
+                          <h4>Nguyễn Xuân Tiến</h4>
+                          <span class="icon-down"><img src="img/icon-arrow-down.png"/></span></a>
+                        <span class="user-school">THPT Liễn Sơn - Vĩnh Phúc</span>
+                        <span class="user-point">200pt</span>
+                      </div>
+                      <div class="user-rank">
+                        <span class="rank-badge rank-green">6</span>
+                      </div>
+                    </li>
+                  </ul>
+                  <a href="#" class="more-btn">Xem thêm</a>
+
+                  <div class="clearfix"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="luyenthi-section theme-yellow">
+    <div class="container">
+      <div class="row">
+        <h3 class="section-title">LUYỆN THI ĐH MÔN HÓA HỌC</h3>
+
+        <div class="col-md-3">
+          <div class="row">
+            <div class="col-md-15 col-sm-7">
+              <div class="test-section panel-wrap">
+                <img src="img/icon-document.png"/>
+
+                <p>Luyện thi ĐH môn Hóa theo Cấu trúc đề thi của BGD năm 2015</p>
+                <a href="#" class="btn btn-green btn-normal">HÃY THỬ SỨC!</a>
+              </div>
+            </div>
+            <div class="col-md-15 col-sm-8">
+              <div class="test-list-section panel-wrap">
+                <h3 class="panel-title">ĐỀ THI THỬ 2015</h3>
+                <hr/>
+                <ul class="list test-list bullet-list">
+                  <li><a href="#" class="test-link">Đề thi thử Đại học môn Hóa học năm 2015 - Tháng 5</a></li>
+                  <li><a href="#" class="test-link">Đề thi thử Đại học môn Hóa học năm 2015 - Tháng 5</a></li>
+                  <li><a href="#" class="test-link">Đề thi thử Đại học môn Hóa học năm 2015 - Tháng 5</a></li>
+                  <li><a href="#" class="test-link">Đề thi thử Đại học môn Hóa học năm 2015 - Tháng 5</a></li>
+                </ul>
+                <a href="#" class="more-btn">Xem thêm</a>
+
+                <div class="clearfix"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="panel-wrap panel-large">
+            <div class="row">
+              <div class="col-sm-5 no-padding-right">
+                <div class="practise-block user-block">
+                  <h3 class="panel-title">Các bạn đang luyện hăng say</h3>
+                  <hr/>
+                  <ul class="list user-list">
+                    <li>
+                      <div class="user-left-content">
+                        <div class="user-avatar">
+                          <a href="#"><img src="img/ava.png"/></a>
+                        </div>
+                        <span class="user-mark">90đ</span>
+                      </div>
+                      <div class="user-right-content">
+                        <a class="user-name" href="#">
+                          <h4>Nguyễn Xuân Tiến</h4>
+                          <span class="icon-new-content"><img src="img/icon-new.png"/></span></a>
+                        <span class="user-school">THPT Liễn Sơn - Vĩnh Phúc</span>
+                        <span class="user-test"><a href="#">Đề thi thử Đại học môn Hóa học năm 2015 - Tháng 3</a></span>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="user-left-content">
+                        <div class="user-avatar">
+                          <a href="#"><img src="img/ava.png"/></a>
+                        </div>
+                        <span class="user-mark">90đ</span>
+                      </div>
+                      <div class="user-right-content">
+                        <a class="user-name" href="#">
+                          <h4>Nguyễn Xuân Tiến</h4>
+                          <span class="icon-new-content"><img src="img/icon-new.png"/></span></a>
+                        <span class="user-school">THPT Liễn Sơn - Vĩnh Phúc</span>
+                        <span class="user-test"><a href="#">Đề thi thử Đại học môn Hóa học năm 2015 - Tháng 3</a></span>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="user-left-content">
+                        <div class="user-avatar">
+                          <a href="#"><img src="img/ava.png"/></a>
+                        </div>
+                        <span class="user-mark">90đ</span>
+                      </div>
+                      <div class="user-right-content">
+                        <a class="user-name" href="#">
+                          <h4>Nguyễn Xuân Tiến</h4>
+                          <span class="icon-new-content"><img src="img/icon-new.png"/></span></a>
+                        <span class="user-school">THPT Liễn Sơn - Vĩnh Phúc</span>
+                        <span class="user-test"><a href="#">Đề thi thử Đại học môn Hóa học năm 2015 - Tháng 3</a></span>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="user-left-content">
+                        <div class="user-avatar">
+                          <a href="#"><img src="img/ava.png"/></a>
+                        </div>
+                        <span class="user-mark">90đ</span>
+                      </div>
+                      <div class="user-right-content">
+                        <a class="user-name" href="#">
+                          <h4>Nguyễn Xuân Tiến</h4>
+                          <span class="icon-new-content"><img src="img/icon-new.png"/></span></a>
+                        <span class="user-school">THPT Liễn Sơn - Vĩnh Phúc</span>
+                        <span class="user-test"><a href="#">Đề thi thử Đại học môn Hóa học năm 2015 - Tháng 3</a></span>
+                      </div>
+                    </li>
+                  </ul>
+                  <a href="#" class="more-btn">Xem thêm</a>
+
+                  <div class="clearfix"></div>
+                </div>
+              </div>
+              <div class="col-sm-5 no-padding-right no-padding-left">
+                <div class="practise-block test-block">
+                  <h3 class="panel-title">Luyện theo chủ đề</h3>
+                  <hr/>
+                  <ul class="list test-list">
+                    <li><a href="#">Chủ đề 1: Các định luật và ứng dụng của Vât Lý<span class="icon-hot-content"><img
+                            src="img/icon-hot.png"/></span></a></a></li>
+                    <li><a href="#">Chủ đề 1: Các định luật và ứng dụng của Vât Lý<span class="icon-hot-content"><img
+                            src="img/icon-hot.png"/></span></a></a></li>
+                    <li><a href="#">Chủ đề 1: Các định luật và ứng dụng của Vât Lý<span class="icon-hot-content"><img
+                            src="img/icon-hot.png"/></span></a></a></li>
+                    <li><a href="#">Chủ đề 1: Các định luật và ứng dụng của Vât Lý<span class="icon-hot-content"><img
+                            src="img/icon-hot.png"/></span></a></a></li>
+                    <li><a href="#">Chủ đề 1: Các định luật và ứng dụng của Vât Lý<span class="icon-hot-content"><img
+                            src="img/icon-hot.png"/></span></a></a></li>
+                    <li><a href="#">Chủ đề 1: Các định luật và ứng dụng của Vât Lý<span class="icon-hot-content"><img
+                            src="img/icon-hot.png"/></span></a></a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-sm-5 no-padding-left">
+                <div class="practise-block leader-block">
+                  <div class="block-icon" style="top:-70px">
+                    <img src="img/icon-sinhhoc.png"/>
+                  </div>
+                  <h3 class="panel-title">Top cao thủ - Môn Hóa</h3>
+                  <hr/>
+                  <ul class="list leader-list">
+                    <li>
+                      <div class="user-avatar">
+                        <a href="#"><img src="img/ava.png"/></a>
+                      </div>
+                      <div class="user-info">
+                        <a class="user-name" href="#">
+                          <h4>Nguyễn Xuân Tiến</h4>
+                          <span class="icon-up"><img src="img/icon-arrow-up.png"/></span></a>
+                        <span class="user-school">THPT Liễn Sơn - Vĩnh Phúc</span>
+                        <span class="user-point">200pt</span>
+                      </div>
+                      <div class="user-rank">
+                        <span class="rank-badge rank-orange">1</span>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="user-avatar">
+                        <a href="#"><img src="img/ava.png"/></a>
+                      </div>
+                      <div class="user-info">
+                        <a class="user-name" href="#">
+                          <h4>Nguyễn Xuân Tiến</h4>
+                          <span class="icon-up"><img src="img/icon-arrow-up.png"/></span></a>
+                        <span class="user-school">THPT Liễn Sơn - Vĩnh Phúc</span>
+                        <span class="user-point">200pt</span>
+                      </div>
+                      <div class="user-rank">
+                        <span class="rank-badge rank-orange">1</span>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="user-avatar">
+                        <a href="#"><img src="img/ava.png"/></a>
+                      </div>
+                      <div class="user-info">
+                        <a class="user-name" href="#">
+                          <h4>Nguyễn Xuân Tiến</h4>
+                          <span class="icon-up"><img src="img/icon-arrow-up.png"/></span></a>
+                        <span class="user-school">THPT Liễn Sơn - Vĩnh Phúc</span>
+                        <span class="user-point">200pt</span>
+                      </div>
+                      <div class="user-rank">
+                        <span class="rank-badge rank-yellow">1</span>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="user-avatar">
+                        <a href="#"><img src="img/ava.png"/></a>
+                      </div>
+                      <div class="user-info">
+                        <a class="user-name" href="#">
+                          <h4>Nguyễn Xuân Tiến</h4>
+                          <span class="icon-down"><img src="img/icon-arrow-down.png"/></span></a>
+                        <span class="user-school">THPT Liễn Sơn - Vĩnh Phúc</span>
+                        <span class="user-point">200pt</span>
+                      </div>
+                      <div class="user-rank">
+                        <span class="rank-badge rank-yellow">1</span>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="user-avatar">
+                        <a href="#"><img src="img/ava.png"/></a>
+                      </div>
+                      <div class="user-info">
+                        <a class="user-name" href="#">
+                          <h4>Nguyễn Xuân Tiến</h4>
+                          <span class="icon-down"><img src="img/icon-arrow-down.png"/></span></a>
+                        <span class="user-school">THPT Liễn Sơn - Vĩnh Phúc</span>
+                        <span class="user-point">200pt</span>
+                      </div>
+                      <div class="user-rank">
+                        <span class="rank-badge rank-green">1</span>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="user-avatar">
+                        <a href="#"><img src="img/ava.png"/></a>
+                      </div>
+                      <div class="user-info">
+                        <a class="user-name" href="#">
+                          <h4>Nguyễn Xuân Tiến</h4>
+                          <span class="icon-down"><img src="img/icon-arrow-down.png"/></span></a>
+                        <span class="user-school">THPT Liễn Sơn - Vĩnh Phúc</span>
+                        <span class="user-point">200pt</span>
+                      </div>
+                      <div class="user-rank">
+                        <span class="rank-badge rank-green">6</span>
+                      </div>
+                    </li>
+                  </ul>
+                  <a href="#" class="more-btn">Xem thêm</a>
+
+                  <div class="clearfix"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <div class="container">
+    <ul class="footer-nav">
+      <li><a href="#">TRANG CHỦ</a></li>
+      <li><a href="#">LUYỆN MÔN HÓA</a></li>
+      <li><a href="#">MÔN LÝ</a></li>
+      <li><a href="#">MÔN SINH</a></li>
+      <li><a href="#">TIN TUYỂN SINH</a></li>
+      <li><a href="#">NẠP THẺ</a></li>
+      <li><a href="#">HƯỚNG DẪN</a></li>
+    </ul>
+    <div class="clearfix"></div>
+    <a href="#" class="footer-logo"><img src="img/logo-footer.png" alt="Luyện thi 360"/></a>
+
+    <div class="footer-copyright">
+      <p>Copyright © 2015. All rights reserved.<br/>
+        Công ty cổ phần Mạng Tri Thức Việt Nam – KNetwork<br/>
+        Giấy phép ĐKKD số 0106674640 ngành Giáo dục Tiểu học, THCS và THPT cấp bởi Sở Kế hoạch và Đầu tư Hà Nội.<br/>
+        Điện thoại: 0964 483 669 - Email: contact@pitago.vn</p>
+    </div>
+  </div>
+</footer>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
+
+<script src="js/vendor/bootstrap.min.js"></script>
+
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
